@@ -17,6 +17,25 @@ int main(void) {
 	
 	int operator = 0;
 	sscanf("%d", &operator, stdin);
+
+	switch (operator) {
+
+	case1:
+		printf("How many numbers you want to add");
+		break;
+
+	case2:
+		printf("How many numbers you want to subtract");
+		break;
+
+	case3:
+		printf("How many numbers you want to multiply");
+		break;
+
+	case4:
+		printf("How many numbers you want to divide");
+		break;
+	}
 }
 
 double addition(double array[], int x) {
