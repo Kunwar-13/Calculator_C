@@ -30,3 +30,25 @@ double addition(double array[], int x) {
 
 	return sum;
 }
+
+
+
+int subtraction() {
+
+	double ans = 0.00;
+	double y = 0.00;
+	int i = printf("Enter the total number of numbers you want to add: ");
+	scanf_s("%d", &i);
+	while (i >= 0) {
+		double num = printf("Enter num: ");
+		scanf_s("%f", &num);
+		while (y < 1) {
+			ans = num;
+			y++;
+		}
+		ans = ans - num;
+		i--;
+	}
+	return ans;
+
+}
