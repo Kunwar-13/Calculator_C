@@ -27,12 +27,12 @@ double subtraction(double array[], int x) {
 		}
 		else {
 
-			sum -= array[i];
+			answer -= array[i];
 
 		}
 		
 	}
 
-	return sum;
+	return answer;
 
 }
