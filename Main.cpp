@@ -15,6 +15,8 @@ int main(void) {
 	printf("7. Square root(\u221A)\n");
 	printf("8. Square root(\u221B)\n");
 	
+	int operator = 0;
+	sscanf("%d", &operator, stdin);
 }
 
 double addition(double array[], int x) {
