@@ -31,6 +31,13 @@ int main(void) {
 	case4:
 		printf("How many numbers you want to divide");
 		break;
+
+	case5:
+	case6:
+	case7:
+	case8:
+	case9:
+
 	}
 }
 
