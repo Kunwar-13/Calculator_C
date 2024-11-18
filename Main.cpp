@@ -54,22 +54,18 @@ double addition(double array[], int x) {
 
 
 
-int subtraction() {
-
-	double ans = 0.00;
-	double y = 0.00;
-	int i = printf("Enter the total number of numbers you want to add: ");
-	scanf_s("%d", &i);
-	while (i >= 0) {
-		double num = printf("Enter num: ");
-		scanf_s("%f", &num);
-		while (y < 1) {
-			ans = num;
-			y++;
-		}
-		ans = ans - num;
-		i--;
+double subtraction(double array[], int x) {
+	double sum = 0.00;
+	int y = 0;
+	while (y < 1) {
+		ans = num;
+		y++;
 	}
-	return ans;
+	for (int i = 0; i < x; i++) {
+
+		sum -= array[i];
+	}
+
+	return sum;
 
 }
